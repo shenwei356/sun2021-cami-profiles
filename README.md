@@ -136,6 +136,14 @@ After many attempts, I found the right version of the NCBI Taxonomy taxdump file
 
 ### Reformating
 
+1. Changing `building` to `build` for name consistency. Because the reads file are:
+`Build_sample1.left.fq.gz`,  `Gut_sample1.left.fq.gz`,  `Oral_sample1.left.fq.gz`,
+`Skin_sample1.left.fq.gz`,  `VG_sample1.left.fq.gz`.
+
+
+        # mv sun/5_building_sequence_abd.txt sun/5_build_sequence_abd.txt
+        # mv sun/5_building_taxonomic_abd.txt sun/5_build_taxonomic_abd.txt
+
 1. Reformating Sun's format to TIPP-like format:
 
         type=taxonomic_abd
@@ -149,7 +157,7 @@ After many attempts, I found the right version of the NCBI Taxonomy taxdump file
                 cut -f 1,$c $f \
                     | sed 1d \
                     | csvtk replace -Ht -K -k name2taxid.tsv -p '(.+)' -r '{kv}' \
-                    > $type/$(basename $f | awk -F _ '{print $2}')_$(expr $c - 1)           
+                    > $type/$(basename $f | awk -F _ '{print $2}' | sed -r 's/^(.)/\U\1/')_sample$(expr $c - 1)           
             done 
         done
         

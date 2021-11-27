@@ -1,5 +1,5 @@
 # Taxonomic Profiling Output
-@SampleID:building_1
+@SampleID:Build_sample1
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -147,7 +147,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.0758608686082696
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.0947456354987276
 # Taxonomic Profiling Output
-@SampleID:building_2
+@SampleID:Build_sample2
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -295,7 +295,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.0
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.350592390277107
 # Taxonomic Profiling Output
-@SampleID:building_3
+@SampleID:Build_sample3
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -443,7 +443,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.246190526576367
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.129676564221177
 # Taxonomic Profiling Output
-@SampleID:building_4
+@SampleID:Build_sample4
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -591,7 +591,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.151563222871931
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.8074817800823151
 # Taxonomic Profiling Output
-@SampleID:building_5
+@SampleID:Build_sample5
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -739,7 +739,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.723502856475606
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.151394663672135
 # Taxonomic Profiling Output
-@SampleID:gut_1
+@SampleID:Gut_sample1
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -838,7 +838,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.377027172450641
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.0
 # Taxonomic Profiling Output
-@SampleID:gut_2
+@SampleID:Gut_sample2
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -937,7 +937,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	1.36760238466497
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.31005785511142
 # Taxonomic Profiling Output
-@SampleID:gut_3
+@SampleID:Gut_sample3
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -1036,7 +1036,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.0
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	1.4258222257994
 # Taxonomic Profiling Output
-@SampleID:gut_4
+@SampleID:Gut_sample4
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -1135,7 +1135,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.047997723311674796
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	5.40388049120874
 # Taxonomic Profiling Output
-@SampleID:gut_5
+@SampleID:Gut_sample5
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -1234,7 +1234,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.297992404256972
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	1.03491648966547
 # Taxonomic Profiling Output
-@SampleID:oral_1
+@SampleID:Oral_sample1
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -1352,7 +1352,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.320160292861149
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.0
 # Taxonomic Profiling Output
-@SampleID:oral_2
+@SampleID:Oral_sample2
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -1470,7 +1470,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.541966895831519
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.0
 # Taxonomic Profiling Output
-@SampleID:oral_3
+@SampleID:Oral_sample3
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -1588,7 +1588,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.0
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.0798124760631928
 # Taxonomic Profiling Output
-@SampleID:oral_4
+@SampleID:Oral_sample4
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -1706,7 +1706,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	1.26574032788998
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.48872293198317096
 # Taxonomic Profiling Output
-@SampleID:oral_5
+@SampleID:Oral_sample5
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -1824,7 +1824,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	1.1476920221920701
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.293016031322479
 # Taxonomic Profiling Output
-@SampleID:skin_1
+@SampleID:Skin_sample1
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -1913,7 +1913,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.537187833478716
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.682696095175763
 # Taxonomic Profiling Output
-@SampleID:skin_2
+@SampleID:Skin_sample2
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -2002,7 +2002,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.0
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.347162385021066
 # Taxonomic Profiling Output
-@SampleID:skin_3
+@SampleID:Skin_sample3
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -2091,7 +2091,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.5170025401137429
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.0
 # Taxonomic Profiling Output
-@SampleID:skin_4
+@SampleID:Skin_sample4
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -2180,7 +2180,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	1.95126774093881
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.784133882802744
 # Taxonomic Profiling Output
-@SampleID:skin_5
+@SampleID:Skin_sample5
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -2269,7 +2269,7 @@
 113107	species	2|1239|91061|186826|1300|1301|113107	Bacteria|Firmicutes|Bacilli|Lactobacillales|Streptococcaceae|Streptococcus|Streptococcus australis	0.412989677151437
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.6416757661792031
 # Taxonomic Profiling Output
-@SampleID:VG_1
+@SampleID:VG_sample1
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -2322,7 +2322,7 @@
 329854	species	2|976|200643|171549|815|816|329854	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides intestinalis	1.8550272177227398
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	7.23998903185301
 # Taxonomic Profiling Output
-@SampleID:VG_2
+@SampleID:VG_sample2
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -2375,7 +2375,7 @@
 329854	species	2|976|200643|171549|815|816|329854	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides intestinalis	2.34597996256593
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.0
 # Taxonomic Profiling Output
-@SampleID:VG_3
+@SampleID:VG_sample3
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -2428,7 +2428,7 @@
 329854	species	2|976|200643|171549|815|816|329854	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides intestinalis	0.0
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	4.6147253806644
 # Taxonomic Profiling Output
-@SampleID:VG_4
+@SampleID:VG_sample4
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
@@ -2481,7 +2481,7 @@
 329854	species	2|976|200643|171549|815|816|329854	Bacteria|Bacteroidetes|Bacteroidia|Bacteroidales|Bacteroidaceae|Bacteroides|Bacteroides intestinalis	0.0
 39778	species	2|1239|909932|1843489|31977|29465|39778	Bacteria|Firmicutes|Negativicutes|Veillonellales|Veillonellaceae|Veillonella|Veillonella dispar	0.0
 # Taxonomic Profiling Output
-@SampleID:VG_5
+@SampleID:VG_sample5
 @Version:0.9.1
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
 @TaxonomyID:ncbi-taxonomy_20211127
