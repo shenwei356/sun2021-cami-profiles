@@ -1,0 +1,15 @@
+
+*.directory
+
+# taxonomy
+delnodes.dmp
+merged.dmp
+names.dmp
+nodes.dmp
+
+name2taxid.tsv
+taxid2name.tsv
+
+taxa.*
+
+tocami.py
