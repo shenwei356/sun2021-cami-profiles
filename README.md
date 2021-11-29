@@ -32,15 +32,17 @@ Taxonomic names instead of TaxId were used, and they were formated:
 
         Orininal: Synechococcus sp. JA-2-3B'a(2-13)
         Formated: Synechococcus_sp_JA_2_3B_a_2_13
+        
+3. Tailing underlines were deleted
 
-Besides, the verion of NCBI Taxonomy database was not clear. The only clue:
+Besides, the verion of NCBI Taxonomy database was not clear. The only clue is:
 
 > Indeed, in the recently updated microbial genome database (NCBI RefSeq, 6 November 2020),
 
 This made it hard to convert taxonomic names to the right TaxId,
 because [NCBI Taxonomy changes frequently](https://github.com/shenwei356/taxid-changelog).
 I had to manually checking the history of a taxon via taxid-changelog,
-and finally found the lastest available taxdump version: `2020-06-01`.
+and finally found the lastest available taxdump version: `2020-03-01`.
 
 ## DOWNLOAD
 
@@ -54,72 +56,37 @@ and finally found the lastest available taxdump version: `2020-06-01`.
 Datasets
 
 - [Twenty-five simulated reads and ground truth profiles](https://figshare.com/projects/Pitfalls_and_Opportunities_in_Benchmarking_Metagenomic_Classifiers/79916).
-- [taxdmp_2020-06-01](https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump_archive/taxdmp_2020-06-01.zip)
-- [taxdmp_2021-10-01](https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump_archive/taxdmp_2021-10-01.zip) or other versions of NCBI taxdump files.
+- Taxdump file of original profile:[taxdmp_2020-03-01](https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump_archive/taxdmp_2020-03-01.zip)
+- Taxdump file for new profile: [taxdmp_2021-10-01](https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump_archive/taxdmp_2021-10-01.zip) or other versions of NCBI taxdump files.
 
 Tools:
 
-- [tocami.py](https://github.com/hzi-bifo/cami2_pipelines/blob/master/bin/tocami.py), depending on Python package [ete3](http://etetoolkit.org/).
-- [taxonkit](https://github.com/shenwei356/taxonkit)
+- [taxonkit](https://github.com/shenwei356/taxonkit) (>= v0.9.0)
 - [rush](https://github.com/shenwei356/rush)
 - [csvtk](https://github.com/shenwei356/csvtk)
 
-### Preparing tocami.py
+### Preparing taxdump for TaxonKit
 
-1. `tocami.py`:
+Here we use taxdmp_2021-10-01.zip as the new taxonomy version.
 
-        # wget https://raw.githubusercontent.com/hzi-bifo/cami2_pipelines/master/bin/tocami.py
-        chmod a+x tocami.py
+    # download taxdmp_2021-10-01.zip
+    wget https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump_archive/taxdmp_2021-10-01.zip
+
+    mkdir taxdump-to
+
+    unzip taxdmp_2021-10-01.zip names.dmp nodes.dmp merged.dmp delnodes.dmp  -d taxdump-to
         
-        # install pacakge ete3
-        pip install ete3
+[Install TaxonKit](https://github.com/shenwei356/taxonkit#installation)
 
-2. Preparing `taxdump.tar.gz` for `tocami.py` (skip this if you download [taxdump.tar.gz](ftp://ftp.ncbi.nih.gov/pub/taxonomy/taxdump.tar.gz))
-
-        # download taxdmp_2021-10-01.zip
-        wget https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump_archive/taxdmp_2021-10-01.zip
-        
-        # preparing taxdump.tar.gz for tocami.py
-        unzip taxdmp_2021-10-01.zip names.dmp nodes.dmp merged.dmp delnodes.dmp 
-        tar -zcvf taxdump.tar.gz names.dmp nodes.dmp merged.dmp delnodes.dmp
-        
-        # clean up
-        /bin/rm *.dmp
-        
-3. Creating database for `ete3` (don't worry the error reports, just ignore):
-
-        tocami.py -t taxdump.tar.gz -f motus -s 1 -d . sun/5_building_taxonomic_abd.txt 
-        
-        # output when creating taxa.sqlite
-        Loading node names...
-        2365884 names loaded.
-        253670 synonyms loaded.
-        Loading nodes...
-        2365884 nodes loaded.
-        Linking nodes...
-        Tree is loaded.
-        Updating database: ./taxa.sqlite ...
-        2365000 generating entries... 
-        Uploading to ./taxa.sqlite
-
-        Inserting synonyms:      250000 
-        Inserting taxid merges:  60000 
-        Inserting taxids:       2365000
 
 ### Preparing mapping relationship between species names and TaxId
 
-Sun mentioned:
-
-> Indeed, in the recently updated microbial genome database (NCBI RefSeq, 6 November 2020),
-
-After many attempts, I found the right version of the NCBI Taxonomy taxdump files, i.e., 2020-06-01.
-
-    # wget https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump_archive/taxdmp_2020-06-01.zip
+    # wget https://ftp.ncbi.nlm.nih.gov/pub/taxonomy/taxdump_archive/taxdmp_2020-03-01.zip
     
-    taxdump=taxdump
+    taxdump=taxdump-from
     
     mkdir -p $taxdump
-    unzip taxdmp_2020-06-01.zip names.dmp nodes.dmp merged.dmp delnodes.dmp -d $taxdump
+    unzip taxdmp_2020-03-01.zip names.dmp nodes.dmp merged.dmp delnodes.dmp -d $taxdump
     
     # taxid -> name
     taxonkit list --ids 1 --indent "" --data-dir $taxdump \
@@ -131,6 +98,7 @@ After many attempts, I found the right version of the NCBI Taxonomy taxdump file
     csvtk cut -lHt -f 2,1 taxid2name.tsv \
         | csvtk replace -lHt -f 1 -p '[\[\]]' \
         | csvtk replace -lHt -f 1 -p '[\W]+' -r '_' \
+        | csvtk replace -lHt -f 1 -p '_$' \
         > name2taxid.tsv
         
 
@@ -144,7 +112,7 @@ After many attempts, I found the right version of the NCBI Taxonomy taxdump file
         # mv sun/5_building_sequence_abd.txt sun/5_build_sequence_abd.txt
         # mv sun/5_building_taxonomic_abd.txt sun/5_build_taxonomic_abd.txt
 
-1. Reformating Sun's format to TIPP-like format:
+1. Reformating Sun's format to two-column format (taxid and abundance):
 
         type=taxonomic_abd
         # type=sequence_abd
@@ -163,13 +131,13 @@ After many attempts, I found the right version of the NCBI Taxonomy taxdump file
         
         
         # checking unsolved names:
-        cat $type/* | csvtk grep -Ht -f 1 -p '[^\d]'
+        cat $type/* | csvtk grep -Ht -f 1 -r -p '[^\d]'
         
         # manually checking the change history via https://github.com/shenwei356/taxid-changelog
         
 2. Formating to CAMI2 format:
-
-        ls $type/* | rush './tocami.py -d ./ -f tipp {} -s {%} -o {}.profile'
+        
+        ls $type/* | rush 'taxonkit profile2cami --data-dir taxdump-to -s {%} {} -o {}.profile'
         
 3. Concatenating:
 

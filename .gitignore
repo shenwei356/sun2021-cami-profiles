@@ -13,3 +13,5 @@ taxid2name.tsv
 taxa.*
 
 tocami.py
+
+taxdump*
