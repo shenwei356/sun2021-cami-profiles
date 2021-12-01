@@ -1,7 +1,7 @@
 @SampleID:Build_sample1
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	100.000000000000000
 1239	phylum	2|1239	Bacteria|Firmicutes	28.845572027859912
@@ -286,7 +286,7 @@
 @SampleID:Build_sample2
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	99.999999999999986
 1239	phylum	2|1239	Bacteria|Firmicutes	37.998146578332509
@@ -524,7 +524,7 @@
 @SampleID:Build_sample3
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	99.999999999999972
 1239	phylum	2|1239	Bacteria|Firmicutes	40.353140096490598
@@ -812,7 +812,7 @@
 @SampleID:Build_sample4
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	99.999999999999972
 1239	phylum	2|1239	Bacteria|Firmicutes	40.081719836043604
@@ -1067,7 +1067,7 @@
 @SampleID:Build_sample5
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	99.999999999999972
 201174	phylum	2|201174	Bacteria|Actinobacteria	40.122953809539830
@@ -1318,7 +1318,7 @@
 @SampleID:Gut_sample1
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	98.779908975242776
 2157	superkingdom	2157	Archaea	1.220091024757256
@@ -1507,7 +1507,7 @@
 @SampleID:Gut_sample2
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	95.242540989605672
 2157	superkingdom	2157	Archaea	4.757459010394310
@@ -1721,7 +1721,7 @@
 @SampleID:Gut_sample3
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	97.533861543493231
 2157	superkingdom	2157	Archaea	2.466138456506790
@@ -1897,7 +1897,7 @@
 @SampleID:Gut_sample4
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	93.768479086468886
 2157	superkingdom	2157	Archaea	6.231520913531110
@@ -2091,7 +2091,7 @@
 @SampleID:Gut_sample5
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	98.931648614990024
 2157	superkingdom	2157	Archaea	1.068351385009980
@@ -2284,7 +2284,7 @@
 @SampleID:Oral_sample1
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	100.000000000000085
 201174	phylum	2|201174	Bacteria|Actinobacteria	30.204488909093012
@@ -2518,7 +2518,7 @@
 @SampleID:Oral_sample2
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	100.000000000000043
 1224	phylum	2|1224	Bacteria|Proteobacteria	28.736540097369339
@@ -2723,7 +2723,7 @@
 @SampleID:Oral_sample3
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	99.999999999999972
 1224	phylum	2|1224	Bacteria|Proteobacteria	31.298159265433277
@@ -2952,7 +2952,7 @@
 @SampleID:Oral_sample4
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	99.999999999999943
 1239	phylum	2|1239	Bacteria|Firmicutes	33.789511451329808
@@ -3216,7 +3216,7 @@
 @SampleID:Oral_sample5
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	100.000000000000085
 1239	phylum	2|1239	Bacteria|Firmicutes	31.541155446766684
@@ -3458,7 +3458,7 @@
 @SampleID:Skin_sample1
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	100.000000000000000
 1239	phylum	2|1239	Bacteria|Firmicutes	32.708437851331119
@@ -3658,7 +3658,7 @@
 @SampleID:Skin_sample2
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	100.000000000000000
 1224	phylum	2|1224	Bacteria|Proteobacteria	30.461039323532230
@@ -3858,7 +3858,7 @@
 @SampleID:Skin_sample3
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	99.999999999999943
 1224	phylum	2|1224	Bacteria|Proteobacteria	29.375408472190088
@@ -4013,7 +4013,7 @@
 @SampleID:Skin_sample4
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	100.000000000000085
 1239	phylum	2|1239	Bacteria|Firmicutes	33.047924330249671
@@ -4198,7 +4198,7 @@
 @SampleID:Skin_sample5
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	99.999999999999986
 1239	phylum	2|1239	Bacteria|Firmicutes	34.338094196144979
@@ -4400,7 +4400,7 @@
 @SampleID:VG_sample1
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	100.000000000000028
 1239	phylum	2|1239	Bacteria|Firmicutes	65.584138850534416
@@ -4502,7 +4502,7 @@
 @SampleID:VG_sample2
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	99.999999999999972
 1239	phylum	2|1239	Bacteria|Firmicutes	31.661336377313436
@@ -4626,7 +4626,7 @@
 @SampleID:VG_sample3
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	100.000000000000028
 976	phylum	2|976	Bacteria|Bacteroidetes	27.239975401336142
@@ -4712,7 +4712,7 @@
 @SampleID:VG_sample4
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	100.000000000000028
 201174	phylum	2|201174	Bacteria|Actinobacteria	42.518729599932868
@@ -4814,7 +4814,7 @@
 @SampleID:VG_sample5
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	99.999999999999986
 1239	phylum	2|1239	Bacteria|Firmicutes	38.027151329057673

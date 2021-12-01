@@ -1,7 +1,7 @@
 @SampleID:Skin_sample4
 @Version:0.10.0
 @Ranks:superkingdom|phylum|class|order|family|genus|species|strain
-@TaxonomyID:ncbi-taxonomy
+@TaxonomyID:ncbi-taxonomy-2021-10-01
 @@TAXID	RANK	TAXPATH	TAXPATHSN	PERCENTAGE
 2	superkingdom	2	Bacteria	99.999999999999986
 976	phylum	2|976	Bacteria|Bacteroidetes	32.190054862601819

@@ -1,4 +1,4 @@
-# Ground truth metagenomic profiles in CAMI format for Sun2021
+# Ground truth metagenomic profiles in CAMI format for Sun et al.
 
 > We
 > simulated metagenomic sequencing reads for 25 communities
@@ -9,7 +9,8 @@
 > selected from the intersection among the reference databases of
 > MetaPhlAn2, mOTUs2 and Kraken2.
 > 
-> Sun, Z., Huang, S., Zhang, M. et al. Challenges in benchmarking metagenomic profilers. Nat Methods > 18, 618–626 (2021). https://doi.org/10.1038/s41592-021-01141-3
+> Sun, Z., Huang, S., Zhang, M. et al. Challenges in benchmarking metagenomic profilers. Nat Methods 
+> 18, 618–626 (2021). https://doi.org/10.1038/s41592-021-01141-3
 
 Sun *et al.* simulated 25 metagenomic reads for benchmarking metagenomic profilers,
 while the ground truth profiles format is not convenient for interpretation
@@ -137,10 +138,13 @@ Here we use taxdmp_2021-10-01.zip as the new taxonomy version.
         
 2. Formating to CAMI2 format:
         
-        ls $type/* | rush 'taxonkit profile2cami --data-dir taxdump-to -s {%} {} -o {}.profile'
+        taxver=ncbi-taxonomy-2021-10-01
+        taxdump=taxdump-to
+        
+        ls $type/* \
+            | rush -v taxver=$taxver -v taxdump=$taxdump \
+                'taxonkit profile2cami --data-dir {taxdump} -s {%} -t {taxver} {} -o {}.profile'
         
 3. Concatenating:
 
         cat $type/*.profile > sun2021_gs_$type.profile
-
-    
