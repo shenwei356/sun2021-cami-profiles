@@ -138,9 +138,10 @@ Here we use taxdmp_2021-10-01.zip as the new taxonomy version.
         
 2. Formating to CAMI2 format:
         
-        taxver=ncbi-taxonomy-2021-10-01
+        taxver=ncbi-taxonomy-2021-12-06
         taxdump=taxdump-to
         
+        /bin/rm $type/*.profile
         ls $type/* \
             | rush -v taxver=$taxver -v taxdump=$taxdump \
                 'taxonkit profile2cami --data-dir {taxdump} -s {%} -t {taxver} {} -o {}.profile'
